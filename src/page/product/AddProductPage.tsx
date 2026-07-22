@@ -324,7 +324,7 @@ const AddProductPage: React.FC = () => {
             </h2>
 
             {/* Drag & Drop Upload Zone */}
-            <div className="relative border-2 border-dashed border-slate-700 hover:border-sky-500 rounded-2xl p-4 flex flex-col items-center justify-center text-center transition-colors bg-slate-900/60 min-h-[200px]">
+            <div className="relative border-2 border-dashed border-slate-700 hover:border-sky-500 rounded-2xl p-4 flex flex-col items-center justify-center text-center transition-colors bg-slate-900/60 min-h-50">
               {imagePreview ? (
                 <div className="relative w-full h-44 flex items-center justify-center">
                   <img

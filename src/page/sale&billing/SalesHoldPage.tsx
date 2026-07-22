@@ -383,7 +383,7 @@ export const SalesHoldPage: React.FC = () => {
                           key={item.id}
                           className="flex items-center justify-between text-xs p-2.5 bg-slate-950/40 rounded-lg border border-slate-800/50"
                         >
-                          <div className="space-y-0.5 truncate max-w-[170px]">
+                          <div className="space-y-0.5 truncate max-w-42.5">
                             <p className="font-medium text-slate-200 truncate">
                               {item.name}
                             </p>

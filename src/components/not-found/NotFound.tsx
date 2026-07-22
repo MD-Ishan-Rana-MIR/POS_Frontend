@@ -33,7 +33,7 @@ export const NotFound: React.FC = () => {
           {/* 1. Large 404 Hero Illustration */}
           <div className="relative inline-block">
             {/* Big Glitch-style 404 text */}
-            <h1 className="text-8xl sm:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-slate-700 via-slate-800 to-slate-950 tracking-widest font-mono">
+            <h1 className="text-8xl sm:text-9xl font-black text-transparent bg-clip-text bg-linear-to-b from-slate-700 via-slate-800 to-slate-950 tracking-widest font-mono">
               404
             </h1>
 

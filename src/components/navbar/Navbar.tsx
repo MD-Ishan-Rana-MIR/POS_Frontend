@@ -134,7 +134,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isSidebarCollapsed, pageTitle = 
     >
       {/* 1. Left Section: Page Title & Global Search */}
       <div className="flex items-center gap-4 sm:gap-6">
-        <h1 className="text-base sm:text-lg font-bold text-white tracking-wide truncate max-w-[140px] sm:max-w-none">
+        <h1 className="text-base sm:text-lg font-bold text-white tracking-wide truncate max-w-35 sm:max-w-none">
           {pageTitle}
         </h1>
 

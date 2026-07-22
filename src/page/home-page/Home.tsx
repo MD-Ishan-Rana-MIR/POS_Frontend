@@ -315,10 +315,10 @@ export const Dashboard: React.FC = () => {
                   <span className="text-[10px] text-slate-400 opacity-0 group-hover:opacity-100 transition-opacity font-mono">
                     {bar.amount}
                   </span>
-                  <div className="w-full max-w-[36px] bg-slate-900 rounded-t-md overflow-hidden h-full flex items-end">
+                  <div className="w-full max-w-9 bg-slate-900 rounded-t-md overflow-hidden h-full flex items-end">
                     <div
                       style={{ height: bar.height }}
-                      className="w-full bg-gradient-to-t from-sky-600 to-sky-400 rounded-t-md group-hover:from-sky-500 group-hover:to-sky-300 transition-all duration-300"
+                      className="w-full bg-linear-to-t from-sky-600 to-sky-400 rounded-t-md group-hover:from-sky-500 group-hover:to-sky-300 transition-all duration-300"
                     />
                   </div>
                   <span className="text-[11px] text-slate-400 font-medium">
