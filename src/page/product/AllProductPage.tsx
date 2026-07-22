@@ -414,7 +414,7 @@ export const AllProductsPage: React.FC<AllProductsPageProps> = ({
                     >
                       {/* Image Frame */}
                       <div
-                        className={`relative bg-slate-100 overflow-hidden ${viewMode === "list" ? "w-full sm:w-48 h-48 rounded-xl flex-shrink-0" : "w-full h-56"}`}
+                        className={`relative bg-slate-100 overflow-hidden ${viewMode === "list" ? "w-full sm:w-48 h-48 rounded-xl shrink-0" : "w-full h-56"}`}
                       >
                         <img
                           src={product.image}
